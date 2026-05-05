@@ -1,0 +1,6 @@
+# Ignore log files
+*.log
+rclone/
+
+# Ignore macOS system files
+.DS_Store
