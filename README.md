@@ -22,6 +22,14 @@ Before running the script, open `sync_script.sh` and update the following variab
 ### Mapping Libraries
 Update the `LIBS` array in the script to map your local folder names to their corresponding SharePoint remote paths. Format it as `"LocalFolderName|RemoteName"`.
 
+## Usage
+1. Clone this repository on your NAS
+2. Make the script executable
+3. Edit your LIBS in the script through nano or your text editing tool
+4. Run the script
+
+## Automation
+To run this script on a schedule, add it to your crontab.
 
 **Installing Rclone onto your Ugreen NAS**
 1. SSH into your NAS
